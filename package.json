@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc --watch -p .",
+    "bsb": "bsb -make-world -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,6 +15,7 @@
   "author": "amarlankri",
   "license": "ISC",
   "devDependencies": {
+    "bs-platform": "^8.3.3",
     "typescript": "^4.0.5"
   }
 }
