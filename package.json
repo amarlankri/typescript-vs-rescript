@@ -1,0 +1,19 @@
+{
+  "name": "typescript-vs-rescript",
+  "version": "0.0.1",
+  "description": "Comparative examples between TypeScript and ReScript",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc --watch -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rescript",
+    "typescript"
+  ],
+  "author": "amarlankri",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
