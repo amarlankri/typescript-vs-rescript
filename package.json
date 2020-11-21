@@ -4,8 +4,10 @@
   "description": "Small exercises written in TypeScript and ReScript",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc --watch -p .",
-    "bsb": "bsb -make-world -w",
+    "tsc": "tsc -p .",
+    "tsc:watch": "tsc --watch -p .",
+    "bsb": "bsb -make-world",
+    "bsb:watch": "bsb -make-world -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
