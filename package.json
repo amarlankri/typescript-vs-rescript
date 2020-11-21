@@ -1,7 +1,7 @@
 {
   "name": "typescript-vs-rescript",
   "version": "0.0.1",
-  "description": "Comparative examples between TypeScript and ReScript",
+  "description": "Small exercises written in TypeScript and ReScript",
   "main": "index.js",
   "scripts": {
     "tsc": "tsc --watch -p .",
