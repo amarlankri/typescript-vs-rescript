@@ -6,7 +6,8 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noEmit": false,
-        "target": "ESNext"
+        "target": "ESNext",
+        "outDir": "lib-ts"
     },
     "include": [
         "src/**/*"
